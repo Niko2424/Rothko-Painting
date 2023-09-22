@@ -3,6 +3,7 @@
     height: 600px;
     background-color: #4d0f00;
     overflow: hidden;
+    /*filter blur: straight forward blur filter*/
     filter: blur(2px);
   }
   
@@ -19,6 +20,8 @@
     background-color: #efb762;
     margin: 20px auto;
     box-shadow: 0 0 3px 3px #efb762;
+    /*border radius: controls the roundness of the corners 
+      can fit 4 values to control each corners*/
     border-radius: 9px;
     transform: rotate(-0.6deg);
   }
@@ -28,8 +31,10 @@
     height: 200px;
     background-color: #8f0401;
     margin: 0 auto 20px;
+    /*box-shadow: shadow effect*/
     box-shadow: 0 0 3px 3px #8f0401;
     border-radius: 8px 10px;
+    /*rotating 0.4 degrees clockwise*/
     transform: rotate(0.4deg);
   }
   
